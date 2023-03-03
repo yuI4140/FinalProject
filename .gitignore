@@ -1,0 +1,44 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.json
+*.lib
+# Ignore conan
+conan.lock
+conanbuildinfo**
+conaninfo.txt
+graph_info.json
+conan_imports_manifest.txt
+
+# Ignore vs
+.vs/**
+**.sln
+**.vcxproj
+**.vcxproj.user
+
+# Ignore binary output
+bin/**
+app/**.dll

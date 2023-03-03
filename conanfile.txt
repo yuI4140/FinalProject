@@ -1,0 +1,6 @@
+[requires]
+fmt/9.1.0
+raylib/4.0.0
+[options]
+[generators]
+premake
