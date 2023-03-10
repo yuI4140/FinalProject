@@ -35,10 +35,8 @@ conan_imports_manifest.txt
 
 # Ignore vs
 .vs/**
-**.sln
 **.vcxproj
 **.vcxproj.user
 
 # Ignore binary output
-bin/**
 app/**.dll
